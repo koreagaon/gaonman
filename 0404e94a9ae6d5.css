@@ -1,0 +1,63 @@
+/* Explain: Base reset and typography defaults, including Paperlogy font. - */
+@font-face {
+    font-family: 'Paperlogy';
+    src: url("54d5bf9068d242.woff2") format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Paperlogy';
+    src: url("2921e9c4098fd5.woff2") format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Paperlogy';
+    src: url("fb151b8673d19b.woff2") format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Paperlogy';
+    src: url("93b2cc53352c62.woff2") format('woff2');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: var(--background-color);
+    color: var(--text-color);
+    scroll-padding-top: 92px;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background:
+        radial-gradient(circle at 12% 18%, rgba(212, 175, 55, 0.06), transparent 26rem),
+        radial-gradient(circle at 88% 8%, rgba(255, 255, 255, 0.02), transparent 24rem),
+        var(--background-color);
+    color: var(--text-color);
+    font-family: var(--font-body);
+    text-rendering: optimizeLegibility;
+}
+
+button,
+a,
+select {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+::selection {
+    background: var(--accent-color);
+    color: #111111;
+}

@@ -1,0 +1,27 @@
+/* Explain: Theme tokens including Paperlogy font family. - */
+:root {
+    --primary-color: #D4AF37;
+    --primary-hover: #F3E5AB;
+    --secondary-color: #1A1A1A;
+    --accent-color: #D4AF37;
+    --logo-subtitle-color: #A89565;
+    --button-color: #D4AF37;
+    --background-color: #0A0A0A;
+    --surface-color: #141414;
+    --footer-bg: #0A0A0A;
+    --text-color: #EDEDED;
+    --text-muted: #9E9E9E;
+    --border-color: rgba(255, 255, 255, 0.08);
+    --glass-bg: rgba(20, 20, 20, 0.75);
+    --glass-border: rgba(212, 175, 55, 0.25);
+    --nav-bg: rgba(10, 10, 10, 0.85);
+    --field-bg: rgba(30, 30, 30, 0.7);
+    --sage-soft: rgba(212, 175, 55, 0.1);
+    --sage-dark: #D4AF37;
+    --terracotta-soft: rgba(255, 255, 255, 0.05);
+    --shadow-soft: 0 22px 70px rgba(0, 0, 0, 0.6);
+    --shadow-button: 0 16px 36px rgba(212, 175, 55, 0.15);
+    --font-heading: 'Paperlogy', sans-serif;
+    --font-body: 'Paperlogy', sans-serif;
+    --font-logo: 'Paperlogy', sans-serif;
+}

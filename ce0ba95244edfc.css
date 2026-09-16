@@ -1,0 +1,41 @@
+/* Explain: Layout utilities for airy one-page studio sections with dark theme. - */
+.section-pad {
+    padding-top: clamp(5.5rem, 10vw, 9rem);
+    padding-bottom: clamp(5.5rem, 10vw, 9rem);
+}
+
+.hero-split {
+    background:
+        linear-gradient(115deg, rgba(10, 10, 10, 0.98) 0%, rgba(15, 15, 15, 0.85) 52%, rgba(212, 175, 55, 0.08) 100%);
+}
+
+.orb {
+    position: absolute;
+    border-radius: 999px;
+    filter: blur(8px);
+    opacity: 0.52;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.orb-sage {
+    width: 24rem;
+    height: 24rem;
+    right: 8%;
+    top: 10%;
+    background: rgba(212, 175, 55, 0.12);
+}
+
+.orb-terracotta {
+    width: 18rem;
+    height: 18rem;
+    left: 4%;
+    bottom: 10%;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.contact-section {
+    background:
+        radial-gradient(circle at 8% 16%, rgba(212, 175, 55, 0.1), transparent 24rem),
+        linear-gradient(180deg, var(--background-color), var(--surface-color));
+}
