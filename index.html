@@ -1,0 +1,438 @@
+ 
+<!-- Explain: Homepage shell with hero and feature sections. -->
+
+<!DOCTYPE html>
+<html lang="ko" class="scroll-smooth">
+<head><link rel="stylesheet" href="assets/7eb2e25f3e9422.css" type="text/css" crossorigin="anonymous">
+<!-- Regular Meta Info -->
+<title>가온탐정사무소 | 대한민국 최초 부부 합동 탐정 전문 기업</title>
+<meta name="description" content="신뢰와 비밀보장을 최우선으로 하는 가온탐정사무소. 개인조사, 기업조사, 단서찾기 등 완벽한 문제 해결.">
+<meta name="keywords" content="탐정사무소, 민간조사, 사람찾기">
+
+<!-- Facebook Meta Info -->
+
+<meta property="og:image" content="assets/be45fac04e29f0.jpg">
+<meta property="og:description" content="신뢰와 비밀보장을 최우선으로 하는 가온탐정사무소. 개인조사, 기업조사, 단서찾기 등 완벽한 문제 해결.">
+<meta property="og:title" content="가온탐정사무소 | 대한민국 최초 부부 합동 탐정 전문 기업">
+<meta property="og:site_name" content="가온탐정사무소 | 대한민국 최초 부부 합동 탐정 전문 기업">
+
+<!-- Google+ Meta Info -->
+<meta itemprop="name" content="가온탐정사무소 | 대한민국 최초 부부 합동 탐정 전문 기업">
+<meta itemprop="description" content="신뢰와 비밀보장을 최우선으로 하는 가온탐정사무소. 개인조사, 기업조사, 단서찾기 등 완벽한 문제 해결.">
+<meta itemprop="image" content="assets/be45fac04e29f0.jpg">
+<!-- Twitter Meta Info -->
+<meta name="twitter:card" content="summary_large_image">
+
+<meta name="twitter:title" content="가온탐정사무소 | 대한민국 최초 부부 합동 탐정 전문 기업">
+<meta name="twitter:description" content="신뢰와 비밀보장을 최우선으로 하는 가온탐정사무소. 개인조사, 기업조사, 단서찾기 등 완벽한 문제 해결.">
+<meta name="twitter:image" content="assets/be45fac04e29f0.jpg">
+
+    <!-- Explain: Shared head content with fonts, Tailwind, and app CSS. -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="assets/29205b8fccae7a.css">
+
+
+<link rel="stylesheet" href="assets/c2067e9c9a1f4d.css">
+<link rel="stylesheet" href="assets/0404e94a9ae6d5.css">
+<link rel="stylesheet" href="assets/fccd4a673b2b0c.css">
+<link rel="stylesheet" href="assets/ce0ba95244edfc.css">
+<link rel="stylesheet" href="assets/languages.css"></head>
+<body class="min-h-screen bg-[var(--background-color)] text-[var(--text-color)]" style="font-family: var(--font-body);">
+    <!-- Explain: Header with logo, navigation, mobile menu, and animated header border. -->
+<header class="site-header fixed left-0 right-0 top-0 z-40 header-glow-border">
+    <nav class="mx-auto flex max-w-[calc(80rem+4rem)] items-center justify-between px-5 py-4 sm:px-8" aria-label="Main navigation" style="font-family: var(--font-heading);">
+        <a href="#top" class="flex flex-col items-center text-center transition-opacity duration-300 hover:opacity-70 focus:outline-none text-[var(--accent-color)]" aria-label="가온탐정사무소 홈">
+            <span class="text-2xl font-black tracking-[-0.03em] sm:text-3xl" style="font-family: var(--font-logo);">가온탐정사무소</span>
+            <span class="mt-1 text-center text-[0.58rem] font-bold uppercase leading-none tracking-[0.34em] text-[var(--logo-subtitle-color)]">GAON PRIVATE INVESTIGATION</span>
+        </a>
+        
+        <div class="hidden lg:flex items-center gap-6 xl:gap-8 text-sm font-semibold">
+            <a href="#top" class="transition-colors hover:text-[var(--primary-hover)]" data-i18n="nav_home">홈</a>
+            <a href="team.html" class="transition-colors hover:text-[var(--primary-hover)]" data-i18n="footer_menu1">사무소 소개</a>
+            <a href="#classes" class="transition-colors hover:text-[var(--primary-hover)]" data-i18n="nav_services">업무 안내</a>
+            <a href="#contact" class="transition-colors hover:text-[var(--primary-hover)]" data-i18n="footer_loc_title">오시는 길</a>
+            <a href="#contact" class="btn rounded-full border-0 bg-[var(--button-color)] px-6 text-black shadow-[var(--shadow-button)] hover:bg-[var(--primary-hover)] min-h-10 h-10 ml-2" data-i18n="nav_consult">무료 상담</a>
+        </div>
+
+        <button type="button" id="navOpenButton" class="lg:hidden inline-flex min-h-11 w-11 items-center justify-center rounded-full border border-[var(--glass-border)] bg-[var(--nav-bg)] text-[var(--text-color)] shadow-[var(--shadow-soft)] backdrop-blur-xl transition-all hover:bg-[var(--surface-color)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-color)]" aria-label="Open menu">
+            <i class="fa-solid fa-bars text-lg"></i>
+        </button>
+    </nav>
+
+    <!-- Full Screen Nav Overlay -->
+    <div id="navOverlay" class="fixed inset-0 z-[80] hidden min-h-dvh flex-col overflow-y-auto bg-[var(--background-color)] text-[var(--text-color)] lg:hidden" aria-hidden="true">
+        <div class="shrink-0 border-b border-[var(--border-color)] bg-[var(--background-color)]/95 backdrop-blur-xl">
+            <div class="mx-auto flex w-full max-w-[calc(80rem+4rem)] items-center justify-between gap-4 px-5 py-4 sm:px-8">
+                <a href="#top" class="nav-close-link flex min-w-0 flex-col items-start text-left text-[var(--accent-color)] transition-opacity duration-300 hover:opacity-70 focus:outline-none" aria-label="가온탐정사무소 홈">
+                    <span class="max-w-[13rem] truncate text-xl font-black leading-none tracking-[-0.03em] sm:max-w-none sm:text-2xl" style="font-family: var(--font-logo);">가온탐정사무소</span>
+                    <span class="mt-1 text-[0.52rem] font-bold uppercase leading-none tracking-[0.28em] text-[var(--logo-subtitle-color)] sm:text-[0.58rem] sm:tracking-[0.34em]">GAON PRIVATE INVESTIGATION</span>
+                </a>
+                <button type="button" id="navCloseButton" class="inline-flex min-h-11 w-11 shrink-0 items-center justify-center rounded-full border border-[var(--glass-border)] bg-[var(--surface-color)] text-[var(--text-color)] shadow-[var(--shadow-soft)] transition-all hover:bg-[var(--glass-bg)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-color)]" aria-label="Close menu">
+                    <i class="fa-solid fa-xmark text-lg"></i>
+                </button>
+            </div>
+        </div>
+        <div class="mx-auto flex w-full max-w-md flex-1 flex-col justify-center px-5 py-8 sm:max-w-xl sm:px-8 sm:py-12">
+            <div class="rounded-[2rem] border border-[var(--glass-border)] bg-[var(--surface-color)]/90 p-4 shadow-[var(--shadow-soft)] backdrop-blur-xl sm:p-6">
+                <p class="mb-3 px-2 text-xs font-bold uppercase tracking-[0.24em] text-[var(--sage-dark)]">Menu</p>
+                <nav class="grid divide-y divide-[var(--glass-border)]" aria-label="Mobile navigation">
+                    <a href="#top" class="nav-close-link flex min-h-14 items-center justify-between rounded-2xl px-2 text-xl font-semibold text-[var(--text-color)] transition-colors hover:text-[var(--primary-hover)] sm:text-2xl" style="font-family: var(--font-heading);">
+                        <span data-i18n="nav_home">홈</span>
+                        <i class="fa-solid fa-house text-sm text-[var(--accent-color)]"></i>
+                    </a>
+                    <a href="team.html" class="nav-close-link flex min-h-14 items-center justify-between rounded-2xl px-2 text-xl font-semibold text-[var(--text-color)] transition-colors hover:text-[var(--primary-hover)] sm:text-2xl" style="font-family: var(--font-heading);">
+                        <span data-i18n="footer_menu1">사무소 소개</span>
+                        <i class="fa-solid fa-circle-info text-sm text-[var(--accent-color)]"></i>
+                    </a>
+                    <a href="#classes" class="nav-close-link flex min-h-14 items-center justify-between rounded-2xl px-2 text-xl font-semibold text-[var(--text-color)] transition-colors hover:text-[var(--primary-hover)] sm:text-2xl" style="font-family: var(--font-heading);">
+                        <span data-i18n="nav_services">업무 안내</span>
+                        <i class="fa-solid fa-magnifying-glass text-sm text-[var(--accent-color)]"></i>
+                    </a>
+                    <a href="#contact" class="nav-close-link flex min-h-14 items-center justify-between rounded-2xl px-2 text-xl font-semibold text-[var(--text-color)] transition-colors hover:text-[var(--primary-hover)] sm:text-2xl" style="font-family: var(--font-heading);">
+                        <span data-i18n="contact_kicker">상담 문의</span>
+                        <i class="fa-solid fa-envelope text-sm text-[var(--accent-color)]"></i>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </div>
+</header>    <main id="top">
+        <!-- Explain: Homepage hero section with headline, description, and call to action. - -->
+<section class="hero-split relative isolate min-h-screen overflow-hidden px-5 pb-20 pt-32 sm:px-8 lg:pt-36">
+    <div class="orb orb-sage"></div>
+    <div class="orb orb-terracotta"></div>
+    <div class="mx-auto grid max-w-7xl items-center gap-14 lg:grid-cols-[0.92fr_1.08fr]">
+        <div class="max-w-3xl">
+            <p class="section-kicker" data-i18n="hero_kicker">신뢰할 수 있는 민간조사기업</p>
+            <h1 class="mt-5 text-5xl font-semibold leading-none tracking-[-0.04em] text-[var(--text-color)] sm:text-6xl lg:text-7xl" style="font-family: var(--font-heading);" data-i18n="hero_title">진실을 향한 확실한 해답을 찾습니다.</h1>
+            <p class="mt-7 max-w-xl text-lg leading-8 text-[var(--text-muted)]" data-i18n="hero_desc">“한 사람의 시선보다, <strong class="font-semibold text-[var(--accent-color)]">두 사람의 시선이 강합니다.</strong>”<br>
+<a href="team.html" target="_blank" class="inline-block text-xl font-bold text-white text-sparkle transition-colors hover:text-[var(--primary-hover)]" data-i18n="team_title">대한민국 최초 부부 합동 더블 탐정 조사팀</a><br>
+“다른 곳에서 놓친 단서, <strong class="font-semibold text-[var(--accent-color)]">우리는 다시 봅니다.</strong>”<br>
+“부부가 함께 움직이는 전문 탐정팀.”<br>
+“조사의 깊이는, 현장에서 결정됩니다.”</p>
+            <div class="mt-10 flex flex-col gap-4 sm:flex-row">
+                <a href="#contact" class="btn btn-lg min-h-12 rounded-full border border-[var(--glass-border)] bg-[var(--glass-bg)] px-8 text-[var(--text-color)] shadow-[var(--shadow-soft)] backdrop-blur-xl transition-all duration-300 hover:border-[var(--accent-color)] hover:bg-[var(--surface-color)] btn-blink-blue" data-i18n="footer_menu4">무료 상담 신청</a>
+            </div>
+        </div>
+        <div class="relative mx-auto flex w-full max-w-[560px] justify-center justify-self-center lg:mr-0 lg:justify-self-end">
+            <div class="arch-frame arch-frame-large arch-frame-hero w-full max-w-[560px]">
+                <img  alt="가온탐정사무소 공식 로고 엠블럼" sizes="(min-width: 1024px) 560px, (min-width: 768px) 560px, 90vw" class="h-full w-full object-cover" src="assets/b403a3b2c6deaf.png" srcset="assets/0a6b0d68de17b9.png 100w, assets/2c6105bcf70218.png 400w, assets/b403a3b2c6deaf.png 800w, assets/1a6a1faec2f16f.png 1200w, assets/0b6abd124a91ba.png 1600w, assets/4ef073d551d267.png 2000w" data-sizes-auto="1">
+            </div>
+        </div>
+    </div>
+</section>        <!-- Explain: Introduction to the detective agency, highlighting services and unique selling points. -->
+<section id="about" class="section-pad bg-[var(--background-color)] px-5 sm:px-8">
+    <!-- 상단: 사진 및 소개글 -->
+    <div class="mx-auto max-w-7xl">
+        <div class="grid gap-12 lg:grid-cols-[0.5fr_1.5fr] lg:items-start">
+            <div class="relative mx-auto w-full max-w-[280px] lg:max-w-[320px] order-2 lg:order-1 pt-4">
+                <div class="arch-frame arch-frame-medium arch-frame-hero mx-auto w-full !h-[350px] lg:!h-[400px]">
+                    <img  alt="KCI 한국탐정연맹 소속 전문 탐정팀" class="h-full w-full object-cover" src="assets/0e93d0fa13c72b.png" srcset="assets/00511e1b5b114d.png 100w, assets/35de6519a903ad.png 400w, assets/0e93d0fa13c72b.png 800w, assets/27b69e21bc35e4.png 1200w, assets/c9b171978eed71.png 1600w, assets/21d63476f4fe66.png 2000w" sizes="100vw" data-sizes-auto="1">
+                </div>
+            </div>
+
+            <div class="w-full order-1 lg:order-2 pt-4">
+                <p class="section-kicker" data-i18n="story_kicker">가온탐정사무소 소개</p>
+                <h2 class="mt-4 max-w-2xl text-4xl font-semibold leading-tight tracking-[-0.03em] sm:text-5xl" style="font-family: var(--font-heading);" data-i18n="story_title">답답한 건 혼자 안고 있지 마세요.</h2>
+                <div class="mt-6 max-w-2xl text-base leading-8 text-[var(--text-muted)] space-y-4">
+                    <p class="text-2xl font-medium leading-relaxed text-[var(--text-color)] sm:text-3xl" data-i18n="story_desc1">
+                        “대체 진실이 뭘까?”<br>
+                        “내가 직접 알아봐도 되는 걸까?”<br>
+                        “증거가 필요한데 어디서부터 시작하지?”
+                    </p>
+                    <p data-i18n="story_desc2">
+                        혼자 끙끙 앓는 시간은 이제 STOP.<br>
+                        <strong class="text-2xl text-[var(--accent-color)] font-bold">가온탐정사무소</strong>가 합법적인 방법으로 사건의 실마리부터 해결까지 함께합니다.
+                    </p>
+<p class="gaon-global-intro" data-i18n="global_intro">한국어·중국어·영어 3개 국어로 상담이 가능하며, 전 세계 현장 투입이 가능합니다.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 하단: 우리를 선택하는 5가지 이유 -->
+    <div class="mx-auto mt-24 max-w-[88rem]">
+        <h3 class="text-2xl font-bold text-center text-[var(--text-color)]" style="font-family: var(--font-heading);" data-i18n="story_reasons_title">🕵️‍♂️ 우리를 선택하는 5가지 이유</h3>
+        <div class="mt-10 grid gap-6 gaon-reasons">
+            <div class="quiet-detail h-full">
+                <span class="!text-lg flex items-center whitespace-nowrap" data-i18n="story_r1_title">LEGAL ONLY ⚖️</span>
+                <p data-i18n="story_r1_desc">불법적인 방법은 NO. 법적 테두리 안에서 조사하고, 필요한 경우 법적 절차에 활용할 수 있는 자료 확보를 원칙으로 합니다.</p>
+            </div>
+            <div class="quiet-detail h-full">
+                <span class="!text-lg flex items-center whitespace-nowrap" data-i18n="story_r2_title">PRIVACY FIRST 🔐</span>
+                <p data-i18n="story_r2_desc">상담부터 의뢰까지 철저한 비밀 보장. 개인정보와 상담 내용은 안전하게 관리합니다.</p>
+            </div>
+            <div class="quiet-detail h-full">
+                <span class="!text-lg flex items-center whitespace-nowrap" data-i18n="story_r3_title">REAL EXPERIENCE 👀</span>
+                <p data-i18n="story_r3_desc">현장 경험이 풍부한 전문 인력이 의뢰 내용을 직접 확인하고 꼼꼼하게 진행합니다.</p>
+            </div>
+            <div class="quiet-detail h-full">
+                <span class="!text-lg flex items-center whitespace-nowrap" data-i18n="story_r4_title">NO SURPRISE 💳</span>
+                <p data-i18n="story_r4_desc">“그래서 비용이 얼마죠?” 복잡하고 애매한 비용은 NO. 진행 과정과 비용을 투명하게 안내하고 상황도 공유합니다.</p>
+            </div>
+<div class="quiet-detail h-full gaon-global-reason"><span class="!text-lg flex items-center" data-i18n="story_r5_title">3개 국어 상담 · 전 세계 투입 🌐</span><p data-i18n="story_r5_desc">한국어·중국어·영어 3개 국어로 상담이 가능하며, 전 세계 현장 투입이 가능합니다.</p></div>
+        </div>
+    </div>
+</section>        <!-- Explain: Section detailing detective services with icons and descriptions. -->
+<section id="classes" class="section-pad px-5 sm:px-8">
+    <div class="mx-auto max-w-7xl">
+        <div class="flex flex-col gap-5 md:flex-row md:items-end md:justify-between">
+            <div>
+                <p class="section-kicker" data-i18n="footer_menu2">주요 업무 안내</p>
+                <h2 class="mt-4 max-w-2xl text-4xl font-semibold leading-tight tracking-[-0.03em] sm:text-5xl" style="font-family: var(--font-heading);" data-i18n="class_title">다양한 분야의 전문 조사를 지원합니다.</h2>
+            </div>
+            <p class="max-w-md text-base leading-7 text-[var(--text-muted)]" data-i18n="class_desc">개인적인 고민부터 기업의 중대한 리스크까지, 가온탐정사무소의 전문 조사관이 상황에 맞는 최적의 솔루션을 제공합니다.</p>
+        </div>
+                <div class="mt-12 grid gap-6 lg:grid-cols-3">
+                        <article class="class-card glass-panel flex flex-col">
+                <div class="mb-6 overflow-hidden rounded-2xl border-2 border-white">
+                    <img  alt="개인 및 가정 문제" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" class="aspect-[4/3] w-full object-cover transition-transform duration-500 hover:scale-105" src="assets/0345eef238c523.jpg" srcset="assets/5f8b7ede63b2b5.jpg 100w, assets/3f96a5611ad09c.jpg 400w, assets/0345eef238c523.jpg 800w, assets/65e69e5f786b65.jpg 1200w, assets/066c08b59ae839.jpg 1600w, assets/b9e6816024b1a2.jpg 2000w" data-sizes-auto="1" data-i18n-alt="class_1_title">
+                </div>
+                <div class="flex items-start justify-between gap-4">
+                    <span class="rounded-full bg-[var(--sage-soft)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--sage-dark)]" data-i18n="class_1_tag">Personal</span>
+                                        <i class="fa-solid fa-magnifying-glass text-2xl text-[var(--accent-color)]"></i>
+                                    </div>
+                <h3 class="mt-8 text-2xl font-semibold tracking-[-0.02em] text-[var(--text-color)]" style="font-family: var(--font-heading);" data-i18n="class_1_title">개인 및 가정 문제</h3>
+                <p class="mt-4 flex-1 text-sm leading-7 text-[var(--text-muted)]" data-i18n="class_1_desc">배우자 문제, 사실 관계 확인 등 개인적인 고민을 은밀하고 확실하게 조사하여 증거를 확보합니다.</p>
+                <a href="#contact" class="mt-8 inline-flex w-max min-h-11 items-center rounded-full bg-[var(--button-color)] px-5 py-3 text-sm font-semibold text-black transition-all duration-300 hover:bg-[var(--primary-hover)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-color)]" data-i18n="class_btn">이 업무 상담하기</a>
+            </article>
+                        <article class="class-card glass-panel flex flex-col">
+                <div class="mb-6 overflow-hidden rounded-2xl border-2 border-white">
+                    <img  alt="기업 및 신용 조사" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" class="aspect-[4/3] w-full object-cover transition-transform duration-500 hover:scale-105" src="assets/8c745c0d7cd063.jpg" srcset="assets/577cafc5ff1307.jpg 100w, assets/17622c781ef6a0.jpg 400w, assets/8c745c0d7cd063.jpg 800w, assets/0dc151b7b48a0f.jpg 1200w, assets/b7d9db459655c5.jpg 1600w, assets/aa3f9155609f58.jpg 2000w" data-sizes-auto="1" data-i18n-alt="class_2_title">
+                </div>
+                <div class="flex items-start justify-between gap-4">
+                    <span class="rounded-full bg-[var(--sage-soft)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--sage-dark)]" data-i18n="class_2_tag">Corporate</span>
+                                        <i class="fa-solid fa-briefcase text-2xl text-[var(--accent-color)]"></i>
+                                    </div>
+                <h3 class="mt-8 text-2xl font-semibold tracking-[-0.02em] text-[var(--text-color)]" style="font-family: var(--font-heading);" data-i18n="class_2_title">기업 및 신용 조사</h3>
+                <p class="mt-4 flex-1 text-sm leading-7 text-[var(--text-muted)]" data-i18n="class_2_desc">산업 스파이, 횡령, 직원 비리, 기업 신용도 등 비즈니스 리스크를 사전/사후에 완벽히 차단합니다.</p>
+                <a href="#contact" class="mt-8 inline-flex w-max min-h-11 items-center rounded-full bg-[var(--button-color)] px-5 py-3 text-sm font-semibold text-black transition-all duration-300 hover:bg-[var(--primary-hover)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-color)]" data-i18n="class_btn">이 업무 상담하기</a>
+            </article>
+                        <article class="class-card glass-panel flex flex-col">
+                <div class="mb-6 overflow-hidden rounded-2xl border-2 border-white">
+                    <img  alt="사람 찾기 및 소재 파악" sizes="(min-width: 1024px) 30vw, (min-width: 768px) 45vw, 90vw" class="aspect-[4/3] w-full object-cover transition-transform duration-500 hover:scale-105" src="assets/4182f041264007.jpg" srcset="assets/0eadb4639452a4.jpg 100w, assets/dce9d90d315ad2.jpg 400w, assets/4182f041264007.jpg 800w, assets/0b11dabae4aca3.jpg 1200w, assets/32541717965ca3.jpg 1600w, assets/6d4fc0465f682b.jpg 2000w" data-sizes-auto="1" data-i18n-alt="class_3_title">
+                </div>
+                <div class="flex items-start justify-between gap-4">
+                    <span class="rounded-full bg-[var(--sage-soft)] px-4 py-2 text-xs font-semibold uppercase tracking-[0.18em] text-[var(--sage-dark)]" data-i18n="class_3_tag">Search</span>
+                                        <i class="fa-solid fa-map-location-dot text-2xl text-[var(--accent-color)]"></i>
+                                    </div>
+                <h3 class="mt-8 text-2xl font-semibold tracking-[-0.02em] text-[var(--text-color)]" style="font-family: var(--font-heading);" data-i18n="class_3_title">사람 찾기 및 소재 파악</h3>
+                <p class="mt-4 flex-1 text-sm leading-7 text-[var(--text-muted)]" data-i18n="class_3_desc">연락이 두절된 가족이나 지인, 은닉된 채무자 등 잃어버린 사람의 행방을 신속하게 찾아냅니다.</p>
+                <a href="#contact" class="mt-8 inline-flex w-max min-h-11 items-center rounded-full bg-[var(--button-color)] px-5 py-3 text-sm font-semibold text-black transition-all duration-300 hover:bg-[var(--primary-hover)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-color)]" data-i18n="class_btn">이 업무 상담하기</a>
+            </article>
+                    </div>
+    </div>
+</section>        <!-- Explain: Homepage section detailing company promises and services with partner team focus. -->
+<section id="studio" class="section-pad bg-[var(--surface-color)] px-5 sm:px-8">
+    <div class="mx-auto grid max-w-7xl gap-12 lg:grid-cols-[1fr_1.1fr] lg:items-center">
+        <div>
+            <p class="section-kicker" data-i18n="amen_kicker">가온의 약속</p>
+            <h2 class="mt-4 max-w-none break-keep text-3xl font-semibold leading-tight tracking-[-0.03em] sm:text-4xl md:whitespace-nowrap lg:text-5xl" style="font-family: var(--font-heading);" data-i18n="amen_title">왜 가온탐정사무소여야 할까요?</h2>
+                        <div class="mt-10 grid gap-4">
+                                <div class="amenity-row transition-all duration-300 border-sparkle bg-[var(--sage-soft)] p-6">
+                    <div class="amenity-dot shadow-[0_0_0_0.45rem_rgba(212,175,55,0.2)]"></div>
+                    <div>
+                        <h3 class="font-semibold text-lg text-[var(--accent-color)]" data-i18n="amen_1_title">대한민국 최초 부부 합동 탐정팀</h3>
+                        <p class="mt-2 text-sm leading-6 text-[var(--text-color)]" data-i18n="amen_1_desc"><strong class="block mb-2 text-base text-[var(--accent-color)]">두 사람이 함께 움직이면, 조사의 깊이가 달라집니다.</strong>단독 조사 방식에서 벗어나 <strong class="text-[var(--text-color)]">남녀 전문 조사관이 함께 현장에 투입되어 사건을 입체적으로 분석하고 추적합니다.</strong><br><br><strong class="text-[var(--text-color)]">오랜 시간 맞춰온 부부만의 완벽한 호흡과 노하우</strong>를 바탕으로, 서로 다른 관점에서 상황을 교차 검증하고 작은 단서도 놓치지 않습니다.<br><br><strong class="block mt-2 text-base text-[var(--accent-color)]" data-i18n="team_b4">부부가 함께 움직이는 이유,<br>결과가 달라지기 때문입니다.</strong></p>
+                    </div>
+                </div>
+                                <div class="amenity-row transition-all duration-300 ">
+                    <div class="amenity-dot "></div>
+                    <div>
+                        <h3 class="font-semibold text-base text-[var(--text-color)]" data-i18n="amen_2_title">분야별 전문 조사관 투입</h3>
+                        <p class="mt-2 text-sm leading-6 text-[var(--text-muted)]" data-i18n="amen_2_desc">사건의 특성과 목적에 맞춰 다양한 실무 경험을 보유한 전문 조사관이 전담 배정됩니다. 축적된 경험과 체계적인 조사 시스템을 바탕으로 사건을 면밀하게 분석하고, 정확하고 정밀하게 추적합니다.</p>
+                    </div>
+                </div>
+                                <div class="amenity-row transition-all duration-300 ">
+                    <div class="amenity-dot "></div>
+                    <div>
+                        <h3 class="font-semibold text-base text-[var(--text-color)]" data-i18n="amen_3_title">투명한 업무 처리</h3>
+                        <p class="mt-2 text-sm leading-6 text-[var(--text-muted)]" data-i18n="amen_3_desc">조사 진행 상황을 의뢰인과 실시간으로 공유하며, 거품 없는 투명한 비용으로 소통합니다.</p>
+                    </div>
+                </div>
+                                <div class="amenity-row transition-all duration-300 ">
+                    <div class="amenity-dot "></div>
+                    <div>
+                        <h3 class="font-semibold text-base text-[var(--text-color)]" data-i18n="amen_4_title">맞춤형 법률 지원 연계</h3>
+                        <p class="mt-2 text-sm leading-6 text-[var(--text-muted)]" data-i18n="amen_4_desc">수집된 합법적 증거를 바탕으로 제휴된 법무법인과 연계하여 완벽한 사후 법적 대응까지 돕습니다.</p>
+                    </div>
+                </div>
+                            </div>
+        </div>
+        <div class="amenity-image-wrap mt-8 lg:mt-16">
+            <img  alt="등을 맞대고 있는 남녀 스파이 실루엣" class="h-full w-full object-cover" src="assets/181180017d82e2.png" srcset="assets/4d900072ecd930.png 100w, assets/88718a633a022c.png 400w, assets/181180017d82e2.png 800w, assets/2ff7c1b4474969.png 1200w, assets/77bf4ad5809937.png 1600w, assets/df775e61fa0661.png 2000w" sizes="100vw" data-sizes-auto="1">
+        </div>
+    </div>
+</section>        <!-- Explain: Contact section with inquiry details and booking form. -->
+<section id="contact" class="section-pad contact-section px-5 sm:px-8">
+    <div class="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.82fr_1fr] lg:items-center">
+        <div>
+            <p class="section-kicker" data-i18n="contact_kicker">상담 문의</p>
+            <h2 class="mt-4 max-w-2xl text-4xl font-semibold leading-tight tracking-[-0.03em] sm:text-5xl" style="font-family: var(--font-heading);" data-i18n="contact_title">혼자 추측하지 말고,<br>확인해보세요.</h2>
+            <p class="mt-6 max-w-xl text-base leading-8 text-[var(--text-muted)]" data-i18n="contact_desc">
+                막연한 의심을 팩트로.<br>
+                답답한 상황을 해결의 실마리로.<br><br>
+                <strong class="text-[var(--accent-color)]">가온탐정사무소</strong>가<br>
+                당신의 이야기를 가장 가까이에서 듣겠습니다.
+            </p>
+            <div class="mt-8 grid gap-4 text-sm text-[var(--text-muted)] sm:grid-cols-2">
+                <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-envelope text-[var(--accent-color)]"></i>
+                    <span class="font-medium uppercase tracking-widest text-xs text-[var(--text-color)]" data-i18n="contact_feature1">24시간 이내 회신</span>
+                </div>
+                <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-shield-halved text-[var(--accent-color)]"></i>
+                    <span class="font-medium uppercase tracking-widest text-xs text-[var(--text-color)]" data-i18n="contact_feature2">100% 비밀보장 무료상담</span>
+                </div>
+            </div>
+        </div>
+        <form id="bookingForm" class="booking-form glass-panel hidden lg:block" novalidate>
+            <input type="hidden" name="recaptchaToken" value="">
+            <div class="grid gap-5 sm:grid-cols-2">
+                <fieldset>
+                    <label for="bookingName" class="form-label" data-i18n="form_name">이름(또는 가명)</label>
+                    <input id="bookingName" name="name" type="text" required autocomplete="name" class="input input-lg w-full rounded-full border border-[var(--glass-border)] bg-[var(--field-bg)] px-5 text-[var(--text-color)] placeholder:text-[var(--text-muted)] focus:border-[var(--accent-color)] focus:outline-none" placeholder="성함 입력" data-i18n-placeholder="form_name_ph">
+                </fieldset>
+                <fieldset>
+                    <label for="bookingEmail" class="form-label" data-i18n="form_email">이메일 또는 연락처</label>
+                    <input id="bookingEmail" name="email" type="text" required autocomplete="email" class="input input-lg w-full rounded-full border border-[var(--glass-border)] bg-[var(--field-bg)] px-5 text-[var(--text-color)] placeholder:text-[var(--text-muted)] focus:border-[var(--accent-color)] focus:outline-none" placeholder="연락 받으실 곳" data-i18n-placeholder="form_email_ph">
+                </fieldset>
+                <fieldset class="sm:col-span-2">
+                    <label for="bookingMessage" class="form-label" data-i18n="form_msg">상담 내용</label>
+                    <textarea id="bookingMessage" name="message" required class="textarea w-full rounded-3xl border border-[var(--glass-border)] bg-[var(--field-bg)] p-5 text-[var(--text-color)] placeholder:text-[var(--text-muted)] focus:border-[var(--accent-color)] focus:outline-none min-h-[120px]" placeholder="어떤 일로 도움이 필요하신가요?" data-i18n-placeholder="form_msg_ph"></textarea>
+                </fieldset>
+            </div>
+            <button type="submit" class="btn btn-lg mt-7 min-h-12 w-full rounded-full border-0 bg-[var(--button-color)] text-black shadow-[var(--shadow-button)] transition-all duration-300 hover:bg-[var(--primary-hover)] focus:outline-none focus:ring-2 focus:ring-[var(--accent-color)]" data-i18n="form_submit">상담 신청하기</button>
+            <p class="form-status mt-4 text-sm" data-form-status="booking" role="status" aria-live="polite"></p>
+        </form>
+    </div>
+</section>
+
+<div class="mobile-book-bar md:hidden" id="mobileBookBar">
+    <button type="button" id="mobileBookButton" class="btn min-h-12 w-full rounded-full border-0 bg-[var(--button-color)] text-black shadow-[var(--shadow-button)]" data-i18n="footer_menu4">무료 상담 신청</button>
+</div>
+
+<div id="bookingOverlay" class="booking-overlay" aria-hidden="true">
+    <div class="booking-overlay-panel">
+        <div class="flex items-start justify-between gap-4">
+            <div>
+                <p class="section-kicker" data-i18n="overlay_kicker">비밀 상담 신청</p>
+                <h2 class="mt-3 text-3xl font-semibold leading-tight tracking-[-0.03em]" style="font-family: var(--font-heading);" data-i18n="overlay_title">안전하게 도와드립니다.</h2>
+            </div>
+            <button type="button" id="closeBookingOverlay" class="btn btn-circle min-h-12 w-12 border border-[var(--glass-border)] bg-[var(--surface-color)] text-[var(--text-color)]" aria-label="Close booking form">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <form id="overlayBookingForm" class="mt-8 grid gap-5" novalidate>
+            <input type="hidden" name="recaptchaToken" value="">
+            <fieldset>
+                <label for="overlayName" class="form-label" data-i18n="form_name">이름(또는 가명)</label>
+                <input id="overlayName" name="name" type="text" required autocomplete="name" class="input input-lg w-full rounded-full border border-[var(--glass-border)] bg-[var(--field-bg)] px-5 text-[var(--text-color)] placeholder:text-[var(--text-muted)]" placeholder="성함 입력" data-i18n-placeholder="form_name_ph">
+            </fieldset>
+            <fieldset>
+                <label for="overlayEmail" class="form-label" data-i18n="form_email">이메일 또는 연락처</label>
+                <input id="overlayEmail" name="email" type="text" required autocomplete="email" class="input input-lg w-full rounded-full border border-[var(--glass-border)] bg-[var(--field-bg)] px-5 text-[var(--text-color)] placeholder:text-[var(--text-muted)]" placeholder="연락 받으실 곳" data-i18n-placeholder="form_email_ph">
+            </fieldset>
+            <fieldset>
+                <label for="overlayMessage" class="form-label" data-i18n="form_msg">상담 내용</label>
+                <textarea id="overlayMessage" name="message" required class="textarea w-full rounded-3xl border border-[var(--glass-border)] bg-[var(--field-bg)] p-5 text-[var(--text-color)] placeholder:text-[var(--text-muted)] min-h-[120px]" placeholder="어떤 일로 도움이 필요하신가요?" data-i18n-placeholder="form_msg_ph"></textarea>
+            </fieldset>
+            <button type="submit" class="btn btn-lg min-h-12 rounded-full border-0 bg-[var(--button-color)] text-black shadow-[var(--shadow-button)]" data-i18n="overlay_submit">상담 접수하기</button>
+            <p class="form-status text-sm" data-form-status="overlay" role="status" aria-live="polite"></p>
+        </form>
+    </div>
+</div>    </main>
+    <!-- Explain: Website footer with navigation, contact info, and social links. -->
+<footer class="bg-[var(--footer-bg)] px-5 pb-24 pt-8 text-[var(--text-color)] sm:px-8 sm:pb-24 md:pb-10 lg:pt-12">
+    <div class="mx-auto max-w-7xl border-t border-[var(--glass-border)] pt-6 lg:pt-8">
+        <div class="flex flex-col gap-8 lg:flex-row lg:items-start lg:justify-between lg:gap-12">
+            <div class="flex flex-col items-center text-center lg:items-start lg:text-left">
+                <a href="#top" class="inline-flex flex-col items-center text-center text-[var(--accent-color)] transition-opacity duration-300 hover:opacity-70">
+                    <span class="text-3xl md:text-4xl" style="font-family: var(--font-logo);">가온탐정사무소</span>
+                    <span class="mt-1 text-center text-xs font-bold uppercase leading-none tracking-[0.34em] text-[var(--logo-subtitle-color)]">GAON PRIVATE INVESTIGATION</span>
+                </a>
+                <p class="mt-4 max-w-lg break-keep text-sm leading-7 text-[var(--text-muted)]" data-i18n="footer_desc">철저한 비밀보장과 합법적인 증거 수집으로 당신의 진실을 밝혀드립니다.</p>
+            </div>
+
+            <div class="mx-auto grid w-full max-w-3xl grid-cols-1 justify-items-center gap-8 sm:grid-cols-2 sm:gap-10 lg:mx-0 lg:w-auto lg:min-w-[520px] lg:justify-items-start lg:gap-16">
+                <div class="text-center lg:text-left">
+                    <p class="text-sm font-semibold uppercase tracking-[0.22em] text-[var(--text-color)]" data-i18n="footer_menu_title">메뉴</p>
+                    <div class="mt-4 grid gap-2 text-sm text-[var(--text-muted)]">
+                        <a href="team.html" class="transition-colors duration-300 hover:text-[var(--text-color)]" data-i18n="footer_menu1">사무소 소개</a>
+                        <a href="#classes" class="transition-colors duration-300 hover:text-[var(--text-color)]" data-i18n="footer_menu2">주요 업무 안내</a>
+                        <a href="#studio" class="transition-colors duration-300 hover:text-[var(--text-color)]" data-i18n="footer_menu3">우리의 강점</a>
+                        <a href="#contact" class="transition-colors duration-300 hover:text-[var(--text-color)]" data-i18n="footer_menu4">무료 상담 신청</a>
+                    </div>
+                </div>
+                <div class="text-center lg:text-left">
+                    <p class="text-sm font-semibold uppercase tracking-[0.22em] text-[var(--text-color)]" data-i18n="footer_loc_title">오시는 길</p>
+                    <p class="mt-4 text-sm leading-7 text-[var(--text-muted)]" data-i18n="footer_loc">인천 부평구 길주남로 155 4층<br>24시간 연중무휴 전화 상담 가능</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="mx-auto mt-8 flex max-w-7xl flex-col items-center justify-between gap-2 text-xs text-[var(--text-muted)] sm:mt-6 sm:flex-row sm:gap-4 lg:mt-10">
+        <p class="text-center sm:text-left" data-i18n="footer_copy">&copy; 2026 가온탐정사무소. All rights reserved.</p>
+        <p class="text-center sm:text-right" data-i18n="footer_slogan">진실을 향한 가장 확실한 해답.</p>
+    </div>
+</footer>
+
+<!-- Floating Chat Widgets -->
+<div class="fixed right-4 bottom-24 z-50 flex flex-col items-end gap-3 sm:right-6 sm:bottom-12">
+    <!-- 안내문 팝업 버튼 -->
+    <button type="button" id="openNoticeBtn" class="flex h-12 sm:h-14 w-[120px] sm:w-[130px] justify-center items-center gap-2 rounded-full bg-[var(--surface-color)] border border-[var(--glass-border)] text-[var(--accent-color)] shadow-[var(--shadow-soft)] transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[var(--accent-color)] focus:ring-offset-2 focus:ring-offset-[var(--background-color)]" aria-label="안내문 보기">
+        <i class="fa-solid fa-bullhorn text-lg sm:text-xl w-5 text-center"></i>
+        <span class="text-sm font-bold whitespace-nowrap text-left w-[3.5rem]" data-i18n="float_notice">안내문</span>
+    </button>
+    <!-- 네이버 블로그 -->
+    <a href="https://blog.naver.com/gaonkoreagaon" target="_blank" rel="noopener noreferrer" class="flex h-12 sm:h-14 w-[120px] sm:w-[130px] justify-center items-center gap-2 rounded-full bg-[#03C75A] text-white shadow-[var(--shadow-soft)] transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#03C75A] focus:ring-offset-2 focus:ring-offset-[var(--background-color)]" aria-label="네이버 블로그">
+        <strong class="font-black italic text-lg leading-none w-5 text-center">N</strong>
+        <span class="text-sm font-bold whitespace-nowrap text-left w-[3.5rem]" data-i18n="float_blog">블로그</span>
+    </a>
+    <!-- 카카오톡 상담 -->
+    <a href="http://pf.kakao.com/_hKaxaX/chat" title="카카오톡 아이디: gaon05" target="_blank" rel="noopener noreferrer" class="flex h-12 sm:h-14 w-[120px] sm:w-[130px] justify-center items-center gap-2 rounded-full bg-[#FEE500] text-[#191919] shadow-[var(--shadow-soft)] transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#FEE500] focus:ring-offset-2 focus:ring-offset-[var(--background-color)]" aria-label="카카오톡 상담">
+        <i class="fa-solid fa-comment text-lg sm:text-xl w-5 text-center"></i>
+        <span class="text-sm font-bold whitespace-nowrap text-left w-[3.5rem]" data-i18n="float_kakao">카카오톡</span>
+    </a>
+    <!-- 텔레그램 상담 -->
+    <a href="https://t.me/+821055266787" target="_blank" rel="noopener noreferrer" class="flex h-12 sm:h-14 w-[120px] sm:w-[130px] justify-center items-center gap-2 rounded-full bg-[#229ED9] text-white shadow-[var(--shadow-soft)] transition-transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-[#229ED9] focus:ring-offset-2 focus:ring-offset-[var(--background-color)]" aria-label="텔레그램 상담">
+        <i class="fa-brands fa-telegram text-xl sm:text-2xl w-5 text-center"></i>
+        <span class="text-sm font-bold whitespace-nowrap text-left w-[3.5rem]" data-i18n="float_tele">텔레그램</span>
+    </a>
+</div>
+
+<!-- Explain: Modal dialog for displaying important notices to the user. -->
+<dialog id="homeNoticeModal" class="modal modal-bottom sm:modal-middle">
+    <div class="modal-box bg-black/30 backdrop-blur-md border border-[var(--glass-border)] text-[var(--text-color)] shadow-[var(--shadow-soft)] p-6 sm:p-8 rounded-3xl max-w-lg">
+        <p class="mb-4 inline-block rounded-full bg-[var(--sage-soft)] px-3 py-1 text-xs font-bold tracking-widest text-[var(--sage-dark)]" data-i18n="popup_kicker">가온탐정사무소 안내문</p>
+        <h3 class="font-bold text-xl sm:text-2xl text-[var(--accent-color)] mb-5 break-keep" style="font-family: var(--font-heading);" data-i18n="popup_title">과장된 경력과 화려한 홍보에 현혹되지 마십시오.</h3>
+        
+        <div class="space-y-4 text-[0.95rem] leading-relaxed text-[var(--text-muted)] break-keep">
+            <p data-i18n="popup_p1">검증하기 어려운 실적을 내세우거나 지나치게 저렴한 비용, 후불·성공보수 등을 앞세워 고객을 유인하는 경우가 있을 수 있습니다. <br>“저렴하니까”, “성공하면 비용을 낸다니까”라는 이유만으로 선택하지 마십시오.</p>
+            
+            <h4 class="font-bold text-lg text-[var(--text-color)] mt-8 mb-3" style="font-family: var(--font-heading);" data-i18n="popup_h4">탐정사무소 선택의 기준</h4>
+            <p data-i18n="popup_p2">상담 전 반드시 조사 범위와 방법, 진행 절차, 비용 조건을 명확하게 확인하시기 바랍니다. 무엇보다 중요한 것은 법의 테두리 안에서 원칙을 지키며 안전하게 조사하는 것입니다.</p>
+            <p data-i18n="popup_p3">조사 과정에서 발생할 수 있는 불필요한 위험을 최소화하며 고객의 소중한 정보와 사건을 끝까지 책임감 있게 관리하는 업체를 선택하시기 바랍니다.</p>
+            
+            <div class="mt-6 p-5 rounded-2xl bg-black/20 border border-[var(--glass-border)] text-center">
+                <p class="font-bold text-[var(--text-color)] text-base sm:text-lg mb-2 text-sparkle" data-i18n="popup_box1">합법적으로 조사하고, 안전하게 진행하며,<br>끝까지 책임지는 것.</p>
+                <p class="text-sm" data-i18n="popup_box2">그것이 신뢰할 수 있는 탐정사무소를 선택하는 기준입니다.<br>소중한 시간과 비용을 들여 의뢰하는 만큼, 충분히 비교하고 신중하게 선택하시기 바랍니다.</p>
+            </div>
+        </div>
+        
+        <div class="modal-action flex flex-row justify-between items-center mt-8 gap-4">
+            <label class="cursor-pointer inline-flex items-center gap-2">
+                <input type="checkbox" id="hideNoticeToday" class="checkbox checkbox-sm border-[var(--glass-border)] [--chkbg:var(--accent-color)] [--chkfg:black]" />
+                <span class="text-[var(--text-muted)] text-sm font-medium" data-i18n="popup_hide">오늘 하루 보지 않기</span>
+            </label>
+            <button type="button" id="closeNoticeBtn" class="btn min-w-[5rem] rounded-full border border-[var(--glass-border)] bg-[var(--glass-bg)] text-[var(--text-color)] hover:border-[var(--accent-color)] hover:text-white" data-i18n="popup_close">닫기</button>
+        </div>
+    </div>
+    <form method="dialog" class="modal-backdrop bg-black/40 backdrop-blur-sm">
+        <button>close</button>
+    </form>
+</dialog>    <script src="assets/original-app.js"></script>
+<script src="assets/translations.js"></script><script src="assets/languages.js"></script><script src="assets/contact.js"></script></body>
+</html>
